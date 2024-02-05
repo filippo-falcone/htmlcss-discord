@@ -10,9 +10,12 @@
 /* ------------ 
     GENERAL
 ------------ */
+body {
+    max-height: 100vh;
+}
 
 .bg-grey {
-    background: #d3d3d3;
+    background: #f6f6f6;
 }
 
 .bg-black {
@@ -138,7 +141,7 @@ p {
     font-size: 20px;
 }
 
-.container>.row .col-40 h1 {
+.container>.row [class^=col] h1 {
     font-size: 48px;
     font-weight: 700;
 }
@@ -211,13 +214,21 @@ p {
     border-radius: 50px;
 }
 
+.btn.bg-black,
+.btn.bg-purple {
+    color: #ffffff;
+}
+
 .btn.bg-white {
     background: #ffffff;
 }
 
 .btn.bg-black {
-    color: #ffffff;
     background: #23272a;
+}
+
+.btn.bg-purple {
+    background: #8ea1e1;
 }
 
 /* -----------
@@ -292,8 +303,28 @@ section>.container {
     padding: 25px 50px 0 90px;
 }
 
-.container>.row .col-40 h1 {
+.container>.row .col-40 h1,
+.container>.row .col-100 h1 {
     padding: 0 0 32px 0;
+}
+
+.video .col-100 {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.video .col-100 p {
+    padding: 0 140px;
+}
+
+h2 {
+    padding: 28px 38px 46px 26px;
+    background-image: url(img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* -----------
