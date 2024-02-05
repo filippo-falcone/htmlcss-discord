@@ -108,8 +108,13 @@ body {
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
+}
+
+a,
+small,
+.fa-solid.fa-chevron-down {
+    color: #ffffff;
 }
 
 h1 {
