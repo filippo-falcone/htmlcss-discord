@@ -107,6 +107,10 @@ h1 {
     font-size: 56px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 p {
     font-size: 20px;
 }
@@ -301,7 +305,7 @@ main .col-40 h1,
 }
 
 h2 {
-    padding: 28px 38px 46px 26px;
+    padding: 44px 54px 46px 50px;
     background-image: url(img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
