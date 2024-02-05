@@ -10,9 +10,6 @@
 /* ------------ 
     GENERAL
 ------------ */
-body {
-    font-family: 'Cabin', sans-serif;
-}
 
 .bg-grey {
     background: #d3d3d3;
@@ -118,6 +115,11 @@ footer .row.debug {
 /* ---------------
     TYPOGRAPHY
 --------------- */
+body {
+    font-family: 'Cabin', sans-serif;
+    color: #23272a;
+}
+
 .btn {
     font-size: 14px;
     font-weight: 700;
@@ -136,7 +138,10 @@ p {
     font-size: 20px;
 }
 
-.box p {}
+.container>.row .col-40 h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
 
 /* ----------------
     GRID LAYOUT
@@ -281,6 +286,14 @@ header .row :last-child {
 --------- */
 section>.container {
     padding: 48px 0;
+}
+
+.container>.row .col-40 {
+    padding: 25px 50px 0 90px;
+}
+
+.container>.row .col-40 h1 {
+    padding: 0 0 32px 0;
 }
 
 /* -----------
