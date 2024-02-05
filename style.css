@@ -25,94 +25,64 @@ body {
 /* ---------- 
     DEBUG 
 -----------*/
-.debug {
-    border: 2px dashed #000000;
-}
-
-nav.debug {
-    border-top: none;
-    border-bottom: none;
-}
-
-.col-70.debug div {
-    border: 2px dashed #ffffff;
-}
-
-.bg-lightblue.debug {
+.debug header {
     background: #add8e6;
-    border: none;
 }
 
-.bg-yellow.debug {
+.debug header .row {
     background: #daa520;
-}
-
-.bg-blue.debug {
-    background: #00008b;
-}
-
-.box.bg-pink.debug {
-
-    background: #ee82ee;
-}
-
-.bg-ciano.debug {
-    background: #1e90ff;
-}
-
-.bg-lightpink.debug {
-    background: #ffc0cb;
-}
-
-.bg-green.debug {
-    background: #228b22;
-}
-
-.bg-salmon.debug {
-    background: #f08080;
-}
-
-.bg-acquamarine.debug {
-    background: #20b2aa;
-}
-
-.bg-lightaqm.debug {
-    background: #7fffd4;
-    border: none;
-}
-
-.bg-lightsalmon.debug {
-    background: #ffb6c1;
-}
-
-header .row.debug {
     min-height: 44px;
     line-height: 44px;
 }
 
-.row.bg-yellow.debug .col-20 {
-    min-height: 44px;
-}
-
-.hero.debug {
+.debug header .hero {
+    background: #00008b;
     min-height: 500px;
 }
 
-.row.debug [class^='col'] {
-    min-height: 500px;
+.debug header .hero>.box {
+    background: #ee82ee;
 }
 
-main .row.debug {
-    border: none;
+.debug .row [class^=col] {
+    border: 2px dashed #000000;
 }
 
-.col-100.debug {
-    min-height: 896px;
+.debug main .col-60 {
+    background: #1e90ff;
 }
 
-footer .row.debug {
+.debug main .col-40 {
+    background: #ffc0cb;
+}
+
+.debug main .col-100 {
+    background: #228b22;
+    min-height: 896px
+}
+
+.debug footer section :first-child>.row {
     min-height: 573px;
-    border: none;
+}
+
+.debug footer .col-30 {
+    background: #f08080;
+}
+
+.debug footer .col-70 {
+    background: #20b2aa;
+}
+
+.debug footer .credits .row {
+    background: #7fffd4;
+}
+
+.debug .credits>.container .row {
+    min-height: 60px;
+}
+
+.debug .credits>.container .btn {
+    background: #ffb6c1;
 }
 
 /* ---------------
@@ -297,6 +267,10 @@ header .row :last-child {
 --------- */
 main section>.container {
     padding: 48px 0;
+}
+
+main img {
+    max-width: 100%;
 }
 
 .server .col-40,
