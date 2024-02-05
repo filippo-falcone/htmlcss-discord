@@ -52,7 +52,7 @@ nav.debug {
 }
 
 .box.bg-pink.debug {
-    min-height: 402px;
+
     background: #ee82ee;
 }
 
@@ -115,6 +115,29 @@ footer .row.debug {
     border: none;
 }
 
+/* ---------------
+    TYPOGRAPHY
+--------------- */
+.btn {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Cabin', sans-serif;
+}
+
+.big.btn {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.box p {}
+
 /* ----------------
     GRID LAYOUT
 ---------------- */
@@ -172,17 +195,24 @@ footer .row.debug {
     BUTTON
 ----------- */
 .btn {
-    font-size: 14px;
-    font-weight: 700;
-    font-family: 'Cabin', sans-serif;
     background: transparent;
     padding: 7px 16px;
     border: transparent;
     border-radius: 20px;
 }
 
+.big.btn {
+    padding: 16px 32px;
+    border-radius: 50px;
+}
+
 .btn.bg-white {
     background: #ffffff;
+}
+
+.btn.bg-black {
+    color: #ffffff;
+    background: #23272a;
 }
 
 /* -----------
@@ -228,7 +258,22 @@ header .row :last-child {
 
 .box {
     max-width: 906px;
+    min-height: 402px;
+    text-align: center;
     margin: auto;
+    color: #ffffff;
+}
+
+.box h1 {
+    margin: 0 0 50px;
+}
+
+.box p {
+    margin: 0 10px 24px;
+}
+
+.box :nth-child(3) {
+    margin: 0 28px 0 0;
 }
 
 /* ---------
