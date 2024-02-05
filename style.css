@@ -22,6 +22,10 @@ body {
     background: #23272a;
 }
 
+ul {
+    list-style: none;
+}
+
 /* ---------- 
     DEBUG 
 -----------*/
@@ -103,11 +107,16 @@ body {
     font-size: 20px;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 h1 {
     font-size: 56px;
 }
 
-h2 {
+main h2 {
     font-size: 40px;
 }
 
@@ -118,6 +127,25 @@ p {
 .container>.row [class^=col] h1 {
     font-size: 48px;
     font-weight: 700;
+}
+
+footer h2,
+.mini-col .col-25 ul li:first-child {
+    color: #6d84d0;
+}
+
+footer h2 {
+    font-size: 36px;
+}
+
+.fa-solid.fa-chevron-down {
+    font-size: 7px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.social a {
+    font-size: 18px;
 }
 
 /* ----------------
@@ -219,7 +247,6 @@ nav {
 }
 
 nav ul {
-    list-style: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -227,11 +254,6 @@ nav ul {
 
 nav ul li {
     padding: 0 5px;
-}
-
-header a {
-    color: #ffffff;
-    text-decoration: none;
 }
 
 header .row :last-child {
@@ -304,7 +326,7 @@ main .col-40 h1,
     padding: 0 140px;
 }
 
-h2 {
+main h2 {
     padding: 44px 54px 46px 50px;
     background-image: url(img/stars.svg);
     background-size: contain;
@@ -315,7 +337,21 @@ h2 {
     FOOTER
 ----------- */
 footer .container {
-    padding: 10px 0 40px;
+    padding: 84px 0 40px;
+}
+
+footer h2 {
+    margin: 0 0 25px 0;
+}
+
+.flag {
+    max-width: 24px;
+    margin: 0 0 20px 0;
+    vertical-align: top;
+}
+
+.social a {
+    padding: 0 24px 0 0;
 }
 
 .mini-col.col-70 {
@@ -323,9 +359,13 @@ footer .container {
     display: flex;
 }
 
+footer ul li {
+    margin: 0 0 18px 0;
+}
+
 .credits>.container {
     margin: 40px auto;
-    padding: 22px 0;
+    padding: 14px 0;
 }
 
 .credits>.container .row {
