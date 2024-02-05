@@ -295,16 +295,22 @@ header .row :last-child {
 /* ---------
     MAIN
 --------- */
-section>.container {
+main section>.container {
     padding: 48px 0;
 }
 
-.container>.row .col-40 {
+.server .col-40,
+.mod .col-40 {
     padding: 25px 50px 0 90px;
 }
 
-.container>.row .col-40 h1,
-.container>.row .col-100 h1 {
+
+.vocal-channel .col-40 {
+    padding: 90px 0 50px 25px;
+}
+
+main .col-40 h1,
+.video .col-100 h1 {
     padding: 0 0 32px 0;
 }
 
