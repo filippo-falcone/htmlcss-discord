@@ -1,0 +1,246 @@
+/* ----------
+    RESET 
+---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------ 
+    GENERAL
+------------ */
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-grey {
+    background: #d3d3d3;
+}
+
+.bg-black {
+    background: #23272a;
+}
+
+/* ---------- 
+    DEBUG 
+-----------*/
+.debug {
+    border: 2px dashed #000000;
+}
+
+nav.debug {
+    border-top: none;
+    border-bottom: none;
+}
+
+.col-70.debug div {
+    border: 2px dashed #ffffff;
+}
+
+.bg-lightblue.debug {
+    background: #add8e6;
+    border: none;
+}
+
+.bg-yellow.debug {
+    background: #daa520;
+}
+
+.bg-blue.debug {
+    background: #00008b;
+}
+
+.box.bg-pink.debug {
+    min-height: 402px;
+    background: #ee82ee;
+}
+
+.bg-ciano.debug {
+    background: #1e90ff;
+}
+
+.bg-lightpink.debug {
+    background: #ffc0cb;
+}
+
+.bg-green.debug {
+    background: #228b22;
+}
+
+.bg-salmon.debug {
+    background: #f08080;
+}
+
+.bg-acquamarine.debug {
+    background: #20b2aa;
+}
+
+.bg-lightaqm.debug {
+    background: #7fffd4;
+    border: none;
+}
+
+.bg-lightsalmon.debug {
+    background: #ffb6c1;
+}
+
+header .row.debug {
+    min-height: 44px;
+    line-height: 44px;
+}
+
+.row.bg-yellow.debug .col-20 {
+    min-height: 44px;
+}
+
+.hero.debug {
+    min-height: 500px;
+}
+
+.row.debug [class^='col'] {
+    min-height: 500px;
+}
+
+main .row.debug {
+    border: none;
+}
+
+.col-100.debug {
+    min-height: 896px;
+}
+
+footer .row.debug {
+    min-height: 573px;
+    border: none;
+}
+
+/* ----------------
+    GRID LAYOUT
+---------------- */
+.container {
+    max-width: 1202px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row>* {
+    padding: 0 10px;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-80 {
+    width: 80%;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+/* -----------
+    BUTTON
+----------- */
+.btn {
+    font-size: 20px;
+    padding: 8px 10px;
+}
+
+/* -----------
+    HEADER
+----------- */
+header {
+    padding: 16px 0 4px;
+}
+
+nav {
+    flex-grow: 3;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    padding: 0 5px;
+}
+
+header .row :last-child {
+    text-align: end;
+}
+
+/* ---------
+    HERO
+--------- */
+.hero {
+    margin: 16px 0 0;
+    padding: 48px 0;
+}
+
+.box {
+    max-width: 906px;
+    margin: auto;
+}
+
+/* ---------
+    MAIN
+--------- */
+section>.container {
+    padding: 48px 0;
+}
+
+/* -----------
+    FOOTER
+----------- */
+footer .container {
+    padding: 10px 0 40px;
+}
+
+.mini-col.col-70 {
+    padding: 0;
+    display: flex;
+}
+
+.credits>.container {
+    margin: 40px auto;
+    padding: 22px 0;
+}
+
+.credits>.container .row {
+    display: flex;
+    justify-content: space-between;
+}
